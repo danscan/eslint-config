@@ -3,21 +3,17 @@
 module.exports = {
   extends: [
     'airbnb',
-    'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
   ],
   plugins: ['react-hooks'],
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        extensions: ['.js', '.jsx'],
       },
     },
   },
   rules: {
-    '@typescript-eslint/no-use-before-define': 0,
-    '@typescript-eslint/no-var-requires': 0,
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 0,
     'jsx-a11y/anchor-is-valid': 0,
