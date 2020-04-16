@@ -1,4 +1,4 @@
-# danscan-eslint
+# eslint-config-danscan
 Just my personal preferred eslint + prettier setup (for typescript + react projects).
 
 ## Installation
@@ -12,6 +12,6 @@ touch .eslintrc.js
 // ...
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: ['danscan-eslint'],
+  extends: ['danscan'],
 }
 ```
