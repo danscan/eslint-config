@@ -1,5 +1,5 @@
 # eslint-config-danscan
-My preferred eslint + prettier setup for react and non-react projects.
+My preferred eslint + prettier setup.
 
 ## Installation
 ```
