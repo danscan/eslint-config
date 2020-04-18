@@ -13,7 +13,6 @@ touch .eslintrc.js
 
 ## Typescript + Prettier Config
 ```javascript
-// ...
 module.exports = {
   parser: '@typescript-eslint/parser',
   extends: ['danscan'],
@@ -25,7 +24,6 @@ module.exports = {
 
 ## Javacript + Pretter Config
 ```javascript
-// ...
 module.exports = {
   extends: ['danscan/js'],
 }
