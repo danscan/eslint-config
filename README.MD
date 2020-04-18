@@ -1,17 +1,17 @@
 # eslint-config-danscan
 My preferred eslint + prettier setup.
 
+* * *
+
+# Typescript
+
 ## Installation
 ```
 yarn add eslint-config-danscan @typescript-eslint/parser eslint prettier typescript --dev
 touch .eslintrc.js
 ```
 
-* * *
-
-# Typescript
-
-## Typescript + Prettier Config
+### `.eslintrc.js`
 ```javascript
 module.exports = {
   parser: '@typescript-eslint/parser',
@@ -22,7 +22,13 @@ module.exports = {
 
 # Javascript
 
-## Javacript + Pretter Config
+## Installation
+```
+yarn add eslint-config-danscan eslint prettier --dev
+touch .eslintrc.js
+```
+
+### `.eslintrc.js`
 ```javascript
 module.exports = {
   extends: ['danscan/js'],
