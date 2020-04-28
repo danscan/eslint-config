@@ -1,4 +1,4 @@
-# eslint-config-danscan
+# @danscan/eslint-config
 My preferred eslint + prettier setup.
 
 * * *
@@ -15,7 +15,7 @@ touch .eslintrc.js
 ```javascript
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: ['danscan'],
+  extends: ['@danscan'],
 }
 ```
 * * *
@@ -31,6 +31,6 @@ touch .eslintrc.js
 ### `.eslintrc.js`
 ```javascript
 module.exports = {
-  extends: ['danscan/js'],
+  extends: ['@danscan/js'],
 }
 ```
