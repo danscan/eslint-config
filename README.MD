@@ -7,7 +7,7 @@ My preferred eslint + prettier setup.
 
 ## Installation
 ```
-yarn add eslint-config-danscan @typescript-eslint/parser eslint prettier typescript --dev
+yarn add @danscan/eslint-config @typescript-eslint/parser eslint prettier typescript --dev
 touch .eslintrc.js
 ```
 
