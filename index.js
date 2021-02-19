@@ -27,7 +27,6 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react/jsx-curly-newline': 0,
-    'react/jsx-filename-extension': 0,
     'react/jsx-one-expression-per-line': 0,
     'react/jsx-props-no-spreading': 'warn',
     'react/no-unescaped-entities': 0,
